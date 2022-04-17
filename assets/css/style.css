@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Cairo:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100%;
+}
+/* CABEÇALHO */
+header { /*CABEÇALHO*/
+    display: flex;
+    padding: 0;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    background-color: #000000;
+    justify-content: center;
+    height: 8rem;
+}
+.logo { /*LOGO IMAGEM*/
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+
+}
+.faixa {
+    background-color: #960009;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 3rem;
+    justify-content: center;
+}
+
+li {
+    justify-content: center;
+    list-style: none;
+    margin: 10px;
+    display: inline-flex;
+    color: white;
+    font-family: Roboto;
+    font-size: larger;
+    
+}
+li a {
+    justify-content: center;
+    padding: 5px 10 px;
+    margin: 0;
+    border: 0px solid #f00;
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+      
+    
+}
+li a:hover {
+    color: #000000;
+    
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;   
+}
+.main:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+    background-image: url("../img/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.expressoes { 
+    display: flex;  
+    width: 31.875rem;
+    font-size: 1.17em ;
+    margin-block-start: 3em;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: Roboto;
+    color: #fff;
+    background-color: #960009;
+    justify-content: center;
+
+}
+.img {
+    width: 94.3%;
+    align-content: center;
+    border: 10px solid #960009;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+input {
+    justify-content: center;
+}
+.button {
+    display: flex;
+    width: 31.9rem;
+    height: 3.125rem;
+    border-radius: 0.625rem;
+    border-color: #960009;
+    background-color: #960009;
+    color: white;
+    font-family: Roboto;
+    font-size: 2rem;
+    box-shadow: 0.3125rem, 0.3125rem, 0.3125rem, #00000035;
+}
+.button:hover {
+    background-color: #420004;
+    border-color: #420004;
+    color: #ffffff50;
+}
+
+footer {
+    background-color: #960009;
+    padding: 1.5rem;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1rem;
+    margin-top: 3rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+  footer a:hover {
+    color: rgb(228, 169, 92);
+  }
